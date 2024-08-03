@@ -1,0 +1,180 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+/* Estilos de la sección de bienvenida */
+.bienvenida {
+    padding-left: 20px;
+    padding-top: 110px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+/* Estilos para el encabezado */
+header {
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #007BFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+}
+
+.site-header {
+    display: flex; /* Usa Flexbox para alinear el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 10px 20px; /* Espaciado interno */
+}
+  
+.logo {
+    height: 150px; /* Altura del logo */
+    width: 150px; /* Mantén la proporción de la imagen */
+    padding: 25px;
+}
+  
+nav {
+    margin-right: 90px; 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+nav a {
+    color: #E2E2E2;
+    font-weight: 600;
+    padding-right: 10px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/* Estilos para la sección de blog o noticias */
+.blog {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.blog article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog article h3 {
+    margin: 15px;
+    font-size: 1.5em;
+}
+
+.blog article p {
+    margin: 15px;
+    color: #555;
+}
+
+.blog article a {
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.blog article a:hover {
+    background-color: #0056b3;
+}
+/* Estilos para la sección de testimonios */
+./* Estilos para la sección de testimonios */
+.testimonios {
+    padding: 60px 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonios h2 {
+    padding-left: 15px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.testimonios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonio-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.testimonio-content {
+    color: #555;
+}
+
+.cita {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-weight: bold;
+    color: #333;
+}
